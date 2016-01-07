@@ -1,0 +1,9 @@
+{
+	"db": {
+		"username": "root",
+    	"password": "root",
+		"database": "tvAds",
+		"host": "localhost",
+		"dialect": "mysql"
+}
+}
