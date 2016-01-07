@@ -1,9 +1,9 @@
 {
 	"db": {
-		"username": "root",
-    	"password": "root",
-		"database": "tvAds",
-		"host": "localhost",
+		"username": "sql6102197",
+    	"password": "flKuHsvEAx",
+		"database": "sql6102197",
+		"host": " sql6.freemysqlhosting.net",
 		"dialect": "mysql"
 }
 }
