@@ -1,0 +1,34 @@
+{
+  "name": "CRM",
+  "version": "0.0.0",
+  "description": "CRM",
+  "main": "app.js",
+  "author": {
+    "name": "Ariel",
+    "email": ""
+  },
+  "scripts": {
+    "start": " node app.js"
+
+  },
+  "dependencies": {
+    "sequelize": "*",
+    "body-parser": "^1.14.1",
+    "cookieparser": "^0.1.0",
+    "express": "*",
+    "serve-favicon": "*",
+    "serve-static": "*",
+    "serve-index": "*",
+    "errorhandler": "*",
+    "express-session": "*",
+    "morgan": "*",
+    "ejs": "*",
+    "mysql": "^2.9.0",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "stylus": "*",
+    "connect" : "3.4.0",
+    "underscore": "^1.8.3"
+  }
+}
