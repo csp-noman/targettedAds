@@ -1,9 +1,10 @@
 {
 	"db": {
-		"username": "sql6102197",
-    	"password": "flKuHsvEAx",
-		"database": "sql6102197",
-		"host": " sql6.freemysqlhosting.net",
-		"dialect": "mysql"
-}
+		"username": "sql6102425",
+    	"password": "Qp9UbeNhca",
+		"database": "sql6102425",
+		"host": "sql6.freemysqlhosting.net",
+		"dialect": "mysql",
+		"maxIdleTime": 500000000000000000000000000
+	}
 }
