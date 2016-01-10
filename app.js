@@ -22,7 +22,7 @@ app.use (bodyParser.urlencoded ({ extended: false }));
 
 app.use ("/category", routes.Category);
 app.use ("/groups", routes.Group);
-app.use ("/shows", routes.Shows);
+app.use ("/shows", routes.Show);
 app.use ("/advertisements", routes.Advertisement);
 
 
