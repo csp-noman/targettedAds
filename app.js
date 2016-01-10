@@ -7,11 +7,7 @@ var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookieparser');
-var expressSession = require('express-session');
-var favicon = require('serve-favicon');
-var passport = require('passport');
 var logger = require ('morgan');
-var passportLocal = require('passport-local');
 
 
 var routes = require('./routes');
@@ -26,7 +22,7 @@ app.use (bodyParser.urlencoded ({ extended: false }));
 
 app.use ("/category", routes.Category);
 app.use ("/groups", routes.Group);
-app.use ("/notifications", routes.Notification);
+app.use ("/advertisements", routes.Advertisement);
 
 
 //models.sequelize.sync ().then (function () {
