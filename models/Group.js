@@ -20,7 +20,6 @@ module.exports = function (sequelize, DataTypes){
         tableName : 'Group',
 		classMethods: {
             associate: function (models) {
-               //AccountType.hasMany (models.User, { foreignKey: 'AccountTypeId' });
             }
         }
 	});

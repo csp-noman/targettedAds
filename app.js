@@ -21,9 +21,10 @@ app.use (bodyParser.urlencoded ({ extended: false }));
 
 
 app.use ("/category", routes.Category);
-app.use ("/groups", routes.Group);
-app.use ("/shows", routes.Show);
-app.use ("/advertisements", routes.Advertisement);
+app.use ("/group", routes.Group);
+app.use ("/show", routes.Show);
+app.use ("/advertisement", routes.Advertisement);
+app.use ("/user", routes.User);
 
 
 //models.sequelize.sync ().then (function () {
