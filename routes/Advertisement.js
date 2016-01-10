@@ -12,7 +12,7 @@ module.exports = function (models){
             	isScheduled : 1
             },include: [{
             	model : models.Category,
-            	include : [models.Products, models.AppUser]
+            	include : [models.Products]
             }],
         }).then (function (advertisment){
             if (advertisment.length>0 && advertisment) {
